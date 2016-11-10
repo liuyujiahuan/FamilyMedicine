@@ -1,0 +1,6 @@
+framework module Pods_FamilyMedicine {
+  umbrella header "Pods-FamilyMedicine-umbrella.h"
+
+  export *
+  module * { export * }
+}

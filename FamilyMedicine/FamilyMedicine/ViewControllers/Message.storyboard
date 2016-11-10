@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="c6Z-n9-Ipl">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="kzk-0J-mWf">
+            <objects>
+                <viewController id="7rU-pC-4lj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oVT-Jr-K7O"/>
+                        <viewControllerLayoutGuide type="bottom" id="fGN-C2-ar9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="snT-Qd-ALG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JCj-pN-cfq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b1P-KV-Doi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="1185"/>
+        </scene>
+        <!--消息-->
+        <scene sceneID="Lz2-Bi-eLp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c6Z-n9-Ipl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="消息" image="V5FootInfo" selectedImage="V5FootInfoSel" id="1jy-PR-HJw"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics">
+                        <color key="tintColor" red="0.2784313725" green="0.69803921570000005" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                    </simulatedTabBarMetrics>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4hU-5Y-zsk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7rU-pC-4lj" kind="relationship" relationship="rootViewController" id="Z6f-Yz-Cth"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zS4-Z3-53z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="946" y="1043"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="V5FootInfo" width="30" height="30"/>
+        <image name="V5FootInfoSel" width="30" height="30"/>
+    </resources>
+</document>
